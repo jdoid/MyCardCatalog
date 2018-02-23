@@ -1,5 +1,5 @@
 # MyCardCatalog
-Simple Ruby project and XML database to track my books.  This is a project to work with Ruby and XML as a database.  The initial user interface is a simple CLI. 
+Simple Ruby project and XML database to track my books.  This is a project to work with Ruby and use XML as a database.  The initial user interface is a simple CLI. 
 
 Interface and logic are in the initial stages of development.
 
