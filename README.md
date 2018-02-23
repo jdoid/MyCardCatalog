@@ -14,7 +14,7 @@ To run card catalog
 
 $ ruby run_catalog.rb
 
-![MyCardCatalog](https://github.com/jdoid/MyCardCatalog/tree/master/images/menu.png)
+![alt text](../master/doc/images/menu.png?raw=true)
 
 
 ## License
