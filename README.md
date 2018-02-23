@@ -1,11 +1,13 @@
 # MyCardCatalog
 Simple Ruby project and XML database to track my books.  This is a project to work with Ruby and XML as a database.  The initial user interface is a simple CLI. 
 
+Interface and logic are in the initial stages of development.
+
 ## Getting Started
 
 
 ### Installation
-Install the files in the folder bin to the same directory on your server.
+Install the files from folder 'bin' to a directory on your server.
 Initially the library_db.xml file is empty of book nodes.
 
 
@@ -18,6 +20,8 @@ $ ruby run_catalog.rb
 
 Adding a book will prompt for title, author, subject, location.
 Subject and location will show options to use.  Location implies where the book lives - digitally or physically. 
+
+Currently a search is for title only and must be the complete title.
 
 
 ## License
