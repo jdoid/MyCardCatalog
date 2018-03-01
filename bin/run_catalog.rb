@@ -2,6 +2,7 @@ require_relative 'add_book'
 require_relative 'library'
 
 puts "Library Card Catalog..."
+puts
 puts "What would you like to do?"
 puts "1  List all books in the catalog"
 puts "2  Search for a title in the catalog"

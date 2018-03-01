@@ -1,7 +1,6 @@
 # MyCardCatalog
 Simple Ruby project and XML database to track my books.  This is a project to work with Ruby and use XML as a database.  The initial user interface is a simple CLI. 
 
-Interface and logic are in the initial stages of development.
 
 ## Getting Started
 
@@ -18,11 +17,20 @@ $ ruby run_catalog.rb
 
 ![alt text](../master/doc/images/menu.png?raw=true)
 
-Adding a book will prompt for title, author, subject, location.
-Subject and location will show options to use.  Location implies where the book lives - digitally or physically. 
+#### Searching Book by Title
+Menu selection 2 prompts for a book title.  Type in the exact title or any sequence of words to report all possible title matches.
+The search is currently case sensitive.
 
-Currently a search is for title only and must be the complete title.
+#### Adding Book to Catalog
+Menu selection 3 will prompt for title, author, subject, location.
+Subject and location will show options to use.
+Location implies where the book lives - digitally or physically. 
 
+## Futures
+- GUI along with current CLI
+- Rank the search matches
+- Additional attributes for book
+- Additional search types
 
 ## License
 MyCardCatalog is provided under the MIT License.

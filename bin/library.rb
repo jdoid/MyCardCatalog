@@ -21,8 +21,8 @@ class MyLibrary
   
   def search_title
     # Searches 'title' at the time
-    
-    puts "Which book are you looking for (case sensitive) ?"
+    puts
+    puts "Which book are you looking for (case sensitive)?"
     answer = gets.chomp
     
     request_title = answer.split(' ')
@@ -59,5 +59,5 @@ class MyLibrary
       end
     end
   end
-
+  
 end
