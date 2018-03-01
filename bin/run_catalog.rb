@@ -13,7 +13,7 @@ if input == '1'
   lib.read_all
 elsif input == '2'
   lib = MyLibrary.new
-  lib.search
+  lib.search_title
 elsif input == '3'
   book = Book.new
   library = "./library_db.xml"
