@@ -21,10 +21,14 @@ $ ruby run_catalog.rb
 Menu selection 2 prompts for a book title.  Type in the exact title or any sequence of words to report all possible title matches.
 The search is currently case sensitive.
 
+![alt text](../master/doc/images/menu_2.png?raw=true)
+
 #### Adding Book to Catalog
 Menu selection 3 will prompt for title, author, subject, location.
 Subject and location will show options to use.
 Location implies where the book lives - digitally or physically. 
+
+![alt text](../master/doc/images/menu_3.png?raw=true)
 
 ## Futures
 - GUI along with current CLI
